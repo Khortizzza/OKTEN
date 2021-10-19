@@ -1,0 +1,41 @@
+.wrap {
+    width: 100%;
+    height: 100%;
+    background: aliceblue;
+
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+}
+
+.box1 {
+    display: flex;
+    width: 50%;
+}
+
+.box11 {
+    display: flex;
+    width: 600px;
+    height: 300px;
+
+}
+
+.a {
+    background: silver;
+    width: 600px;
+}
+
+.b {
+    background: blue;
+    width: 70%;
+
+}
+
+.c {
+    background: red;
+}
