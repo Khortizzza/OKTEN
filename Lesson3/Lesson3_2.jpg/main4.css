@@ -1,0 +1,36 @@
+.wrap {
+    display: flex;
+    justify-content: flex-start;
+
+}
+.boxH {
+    width: 700px;
+    height: 170px;
+    background: blue;
+}
+
+.boxN {
+    width: 700px;
+    height: 170px;
+    background: aqua;
+}
+
+
+.boxB {
+    width: 550px;
+    height: 400px;
+    background: cornflowerblue;
+}
+.box {
+    width: 150px;
+    height: 400px;
+    background: blueviolet;
+
+}
+
+.boxF {
+    width: 700px;
+    height: 170px;
+    background: dodgerblue;
+    align-items: center;
+}
