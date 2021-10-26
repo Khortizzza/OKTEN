@@ -1,0 +1,148 @@
+:root {
+    --grey:#C0C0C0;
+    --violet:#8A2BE2;
+    --black:#000000;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.inner__top {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    background: #102B3E;
+    text-align: center;
+    color: aliceblue;
+    margin: 0 auto;
+}
+.inner__top_text {
+    justify-content: center;
+    width: 700px;
+}
+.sub {
+    width: 100%;
+    height: 100%;
+    background: silver;
+}
+
+.w150 {
+    width: 300px;
+}
+
+.w120 {
+    width: 120px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w300 {
+    width: 300px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.bkg {
+    background: blueviolet;
+}
+
+.radiusbor {
+    border-radius: 10px;
+}
+
+.radius50 {
+    border-radius: 50%;
+}
+
+.position {
+    position: center;
+}
+
+.marg5 {
+    margin: 5px;
+}
+
+.marg10 {
+    margin: 10px;
+}
+
+.blocks {
+    padding-top: 150px;
+}
+
+.first-block__up {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    /*margin-top: 70px;*/
+    margin: 70px 100px auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.second-block__many_square {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.block2 {
+    width: 650px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 50px auto 0;
+    flex-direction: column;
+}
+
+.block3 {
+    width: 700px;
+    display: flex;
+    justify-content: normal;
+    margin: 100px auto 0;
+}
+
+.around {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+.around__text {
+    margin-top: 45px;
+    justify-content: center;
+}
+.inner__footer {
+    position:absolute;
+    bottom: inherit;
+    width:100%;
+    height:150px;
+    background:#102B3E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+.w50 {
+    width: 50px;
+}
+.h50 {
+    height: 50px;
+}
+.inner__footer_blocks {
+    display: flex;
+    margin-top: 15px;
+}
