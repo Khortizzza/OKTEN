@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.top__of_top {
+    margin: 85px 50px auto;
+}
+
+
+.inner__topp {
+    width: 100%;
+    height: 200px;
+    justify-content: center;
+    display: flex;
+    background: #102B3E;
+    text-align: center;
+    /*color: aliceblue;*/
+    margin-top: 50px;
+}
+
+.sub {
+    width: 100%;
+    height: 100%;
+    background-color: #C0C0C0;
+}
+
+.big__block {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.block__first {
+    width: 500px;
+    height: 200px;
+    display: flex;
+    /*margin: 70px 250px auto;*/
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.block__second {
+
+    width: 170px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
+
+.big__block2 {
+    width: 50%;
+    height: 600px;
+    margin: 250px 280px auto;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.square__first_line {
+    display: flex;
+}
+
+.square__second_line {
+    display: flex;
+}
+
+.h50 {
+    height: 50px;
+}
+
+.h100 {
+    height: 100px;
+}
+
+.h170 {
+    height: 170px;
+}
+
+.w50 {
+    width: 50px;
+}
+
+.w100 {
+    width: 100px;
+}
+
+.w120 {
+    width: 120px;
+}
+
+.w270 {
+    width: 270px;
+}
+
+
+
+.bkg_b {
+    background: #6964E2;
+}
+
+.bkg_bl {
+    background: black;
+}
+
+.marg20 {
+    margin: 20px;
+}
+
+.marg5 {
+    margin: 5px;
+}
+
+.marg10 {
+    margin: 10px;
+}
+
+.marg2 {
+    margin: 2px;
+}
+
+.radiusbor {
+    border-radius: 10px;
+}
+
+.inner__footer {
+    position: absolute;
+    bottom: inherit;
+    width: 100%;
+    height: 150px;
+    background: #102B3E;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.inner__footer_blocks {
+    display: flex;
+    margin-top: 40px;
+    position: absolute;
+    left: 60px;
+
+}
+
+.square__first {
+    width: 500px;
+    height: 200px;
+    background-color: #6964E2;
+    margin: 5px;
+}
+
+.square__second {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 5px;
+}
+
+.three__circle {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+
+
+}
+.three__circle_form {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #6964E2;
+    margin: 20px 60px auto;
+}
