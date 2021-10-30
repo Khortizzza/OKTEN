@@ -1,20 +1,34 @@
+:root {
+    --grey: #C0C0C0;
+    --violet: #8A2BE2;
+    --black: #102B3E;
+}
+
+
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
 
-.top__of_top {
-    margin: 85px 50px auto;
+.top__of_topblc {
+    width: 120px;
+    height: 50px;
+    background-color: var(--violet);
+    border-radius: 10px;
+    margin: 10px 10px auto;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    left: 0px;
 }
-
 
 .inner__topp {
     width: 100%;
     height: 200px;
     justify-content: center;
     display: flex;
-    background: #102B3E;
+    background: var(--black);
     text-align: center;
     /*color: aliceblue;*/
     margin-top: 50px;
@@ -23,7 +37,7 @@
 .sub {
     width: 100%;
     height: 100%;
-    background-color: #C0C0C0;
+    background-color: var(--grey);;
 }
 
 .big__block {
@@ -37,21 +51,36 @@
 .block__first {
     width: 500px;
     height: 200px;
-    display: flex;
-    /*margin: 70px 250px auto;*/
     margin: 20px auto;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+
+}
+
+.block__first_blc {
+    width: 250px;
+    height: 100px;
+    margin: 25px;
+    background-color: var(--violet);
+    border-radius: 10px;
+    /*display: flex;*/
 }
 
 .block__second {
-
     width: 170px;
     height: 300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: 20px auto;
+}
+
+.block__second_blc {
+    width: 75px;
+    height: 75px;
+    background-color: var(--violet);
+    margin: 10px;
+    border-radius: 10px;
+
 }
 
 .big__block2 {
@@ -99,13 +128,12 @@
 }
 
 
-
 .bkg_b {
-    background: #6964E2;
+    background: var(--violet);
 }
 
 .bkg_bl {
-    background: black;
+    background: var(--black);
 }
 
 .marg20 {
@@ -133,7 +161,7 @@
     bottom: inherit;
     width: 100%;
     height: 150px;
-    background: #102B3E;
+    background: var(--black);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -151,14 +179,14 @@
 .square__first {
     width: 500px;
     height: 200px;
-    background-color: #6964E2;
+    background-color: var(--violet);
     margin: 5px;
 }
 
 .square__second {
     width: 200px;
     height: 200px;
-    background-color: black;
+    background-color: var(--black);
     margin: 5px;
 }
 
@@ -169,10 +197,19 @@
 
 
 }
+
 .three__circle_form {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    background-color: #6964E2;
+    background-color: var(--violet);
     margin: 20px 60px auto;
+}
+
+.inner__footer_blck {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: var(--violet);
+    margin: 5px;
 }
