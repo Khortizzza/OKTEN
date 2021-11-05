@@ -11,6 +11,7 @@
           rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Project</title>
 </head>
 <body>
@@ -22,8 +23,19 @@
                 <img src="img/bulavka.png">
                 <p>Ваш город:</p>
                 <a id="city" href="#">City</a>
-
-
+            </div>
+<div class="nav_bootsmob">
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+           data-bs-toggle="dropdown" aria-expanded="false"> Еще
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#">Информация</a></li>
+            <li><a class="dropdown-item" href="#">Сотрудничество</a></li>
+            <li><a class="dropdown-item" href="#">Доставка</a></li>
+        </ul>
+    </li>
+</div>
                 <div class="nav-boots">
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
@@ -46,7 +58,7 @@
                         </ul>
                     </li>
                 </div>
-            </div>
+
 
             <div class="nav-navigation">
                 <div class="nav-menu">
@@ -100,6 +112,26 @@
                 </div>
             </div>
 
+
+
+
+
+            <div class="phone__whatsapp_mob">
+                <div class="phonem_tel">
+                    <h2>+7 383 291 92 86</h2>
+                </div>
+                <div class="phonem-descript">
+                    <h4>форма обратной связи</h4>
+                </div>
+                <div class="whatsapp-logo">
+                    <img src="img/whatsapp.png" alt="WhatsApp">
+<!--                    <div class="whatsappm-text">-->
+                    <p>Напишите нам в WhatsApp</p>
+<!--                </div>-->
+                </div>
+            </div>
+
+
             <div class="whatsapp">
                 <div class="whatsapp-logo">
                     <img src="img/whatsapp.png" alt="WhatsApp">
@@ -121,13 +153,37 @@
 
         </div>
 
+
+        <div class="header_other_mob">
+        <div class="catalog_mob">
+            <button type="button" class="btn_cat_custom">
+                <i class="fa fa-bars"></i>                </button>
+        </div>
+
+
+        <div class="search_mob">
+
+            <div class="search_m">
+                <div class="input-group ">
+                    <input type="text" class="form-control" placeholder="Поиск по наименованию..." aria-label=""
+                           aria-describedby="basic-addon1">
+                    <div class="input-group-append">
+
+                        <button type="button" class="btn_cat_custom1">
+                            <i class="fa fa-search"></i>
+
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+        </div>
+
+
+
         <div class="header_other">
             <div class="catalog">
-
-                <!--                <button name="button">-->
-                <!--                    <img src="img/burger.png" alt="catalog"> Каталог-->
-                <!--                </button>-->
-
                 <button class="button_buy_click"><i class="fa fa-bars"></i> Каталог</button>
             </div>
 
@@ -176,70 +232,162 @@
 </div>
 
 
+
+
+
+
+
 <div class="second_block">
     <div class="second_block-left">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-            </div>
-            <div class="second_block-left">
-                <div class="second_block-left active">
-                    <div class="cor_cont">
-                        <div class="carousel_description">
 
-                            <div class="position_first">
-                                <h2>Сцепление в сборе</h2>
-                                <h3>0AMCLUTCH</h3>
 
-                                <div style="overflow: hidden;">
-                                    <p style="float: left;">14 499,99 ₽</p>
-                                    <h4 style="float: right;">18 550,99 ₽ </h4>
+<div class="close">
+    <!--        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">-->
+    <!--            <div class="carousel-indicators">-->
+
+    <!--                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"-->
+    <!--                        aria-current="true" aria-label="Slide 1"></button>-->
+
+    <!--                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"-->
+    <!--                        aria-label="Slide 2"></button>-->
+
+    <!--                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"-->
+    <!--                        aria-label="Slide 3"></button>-->
+    <!--            </div>-->
+
+    <!--            <div class="carousel-inner">-->
+    <!--                <div class="carousel-item active">-->
+    <!--                    <div class="cor_cont">-->
+    <!--                        <div class="carousel_description">-->
+
+    <!--                            <div class="position_first">-->
+    <!--                                <h2>Сцепление в сборе</h2>-->
+    <!--                                <h3>0AMCLUTCH</h3>-->
+
+    <!--                                <div style="overflow: hidden;">-->
+    <!--                                    <p style="float: left;">14 499,99 ₽</p>-->
+    <!--                                    <h4 style="float: right;">18 550,99 ₽ </h4>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+
+    <!--                            <button class="button_buy_click"><img src="img/Group.png"> В корзину</button>-->
+    <!--                        </div>-->
+
+    <!--                        <img id="img" src="img/clutch.png" class="clutch img" alt="clutch">-->
+
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--                <div class="carousel-item">-->
+    <!--                    <div class="cor_cont">-->
+    <!--                        <div class="carousel_description">-->
+
+    <!--                            <div class="position_first">-->
+    <!--                                <h2>Сцепление в сборе</h2>-->
+    <!--                                <h3>0AMCLUTCH</h3>-->
+
+    <!--                                <div style="overflow: hidden;">-->
+    <!--                                    <p style="float: left;">14 499,99 ₽</p>-->
+    <!--                                    <h4 style="float: right;">18 550,99 ₽ </h4>-->
+    <!--                                </div>-->
+    <!--                            </div>-->
+
+    <!--                            <button class="button_buy_click"><img src="img/Group.png"> В корзину</button>-->
+    <!--                        </div>-->
+
+    <!--                        <img id="img2" src="img/clutch.png" class="clutch" alt="...">-->
+    <!--                    </div>-->
+    <!--                </div>-->
+    <!--                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"-->
+    <!--                        data-bs-slide="prev">-->
+    <!--                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>-->
+    <!--                    <span class="visually-hidden">Previous</span>-->
+    <!--                </button>-->
+    <!--                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"-->
+    <!--                        data-bs-slide="next">-->
+    <!--                    <span class="carousel-control-next-icon" aria-hidden="true"></span>-->
+    <!--                    <span class="visually-hidden">Next</span>-->
+    <!--                </button>-->
+    <!--            </div>-->
+    <!--        </div>-->
+
+</div>
+
+
+
+        <div class="content__slider">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="cor_cont">
+                            <div class="carousel_description">
+                                <div class="item_description">
+                                    <p class="p_slider_m">Сцепление в сборе</p>
+                                    <h3 class="h3_d">Сцепление в сборе</h3>
+                                    <p class="p_sloder_catnom">0AMCLUTCH</p>
                                 </div>
+
+
+                                <div class="item_price">
+
+                                    <p class="p_mob">14 499,99 ₽</p>
+                                    <h3 class="h3_dd">14 499,99 ₽</h3>
+
+                                    <p class="p_slider_price">18 550,99 ₽ </p>
+
+
+                                </div>
+
+
+
+
+                                <button class="button_buy_click btn_m">
+                                    <img src="img/cart_w.png">В корзину
+                                </button>
                             </div>
 
-                            <button class="button_buy_click"><img src="img/Group.png"> В корзину</button>
+                            <img src="img/clutch.png" class="d-block img_slaider_m" alt="...">
                         </div>
-
-                        <img src="img/clutch.png" class="clutch" alt="...">
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="cor_cont">
-                        <div class="carousel_description">
-                            <div class="position_first">
-                                <h3>Сцепление в сборе</h3>
-                                <p>0AMCLUTCH</p>
-
-                                <div style="overflow: hidden;">
-                                    <p style="float: left;">14 499,99 ₽</p>
-                                    <h4 style="float: right;">18 550,99 ₽ </h4>
+                    <div class="carousel-item">
+                        <div class="cor_cont">
+                            <div class="carousel_description">
+                                <div class="item_description">
+                                    <p class="p_slider_m">Сцепление в сборе</p>
+                                    <h3 class="h3_d">Сцепление в сборе</h3>
+                                    <p class="p_sloder_catnom">0AMCLUTCH</p>
                                 </div>
+                                <div class="item_price">
+                                    <p class="p_mob1">14 499,99 ₽</p>
+                                    <h3 class="h3_dd">14 499,99 ₽</h3>
+                                    <p class="p_slider_price">18 550,99 ₽ </p>
+                                </div>
+                                <button class="button_buy_click btn_m">
+                                    <img src="img/cart_w.png">
+                                    В корзину
+                                </button>
                             </div>
 
-                            <button class="button_buy_click"><img src="img/Group.png"> В корзину</button>
-
-
-                            <img src="img/clutch.png" class="clutch" alt="...">
+                            <img src="img/clutch.png" class="d-block img_slaider_m" alt="...">
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="prev">
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                        data-bs-slide="next">
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
         </div>
+
+
 
     </div>
     <div class="second_block-right">
@@ -251,14 +399,16 @@
             <div class="pic_text">
                 <div class="pic"><img src="img/obgonka.png" alt="obgonka"></div>
                 <div class="akc_text">
-                    <h2>Обгонная муфта
+                    <h2>Обгонная муфта<br>
                         гидротрансформатор</h2>
                     <h3>BW-SP-2 SONNAX</h3>
-                    <div style="overflow: hidden;">
-                        <p style="float: left;">4 430₽</p>
-                        <h4 style="float: right;">5 430₽</h4>
-                    </div>
 
+                    <div class="akc_price">
+                        <p class="akc_mob">4 430₽</p>
+                        <p class="akc_d">4 430₽</p>
+                        <h3 class="akc_mob">5 430₽</h3>
+                        <h3 class="akc_dd">5 430₽</h3>
+                    </div>
 
             <div class="button_buyy">
                 <button class="button_buy"><img src="img/Group.png"></button>
@@ -277,14 +427,19 @@
                 <div class="akc_text1">
                     <h2>Комплект фрикционных дисков</h2>
                     <h3>BW-SP-2 SONNAX</h3>
-                    <div style="overflow: hidden;">
-                        <p style="float: left;">4 430₽</p>
-                        <h4 style="float: right;">5 430₽</h4>
+                    <div class="akc_price">
+                        <p class="akc_mob">4 430₽</p>
+                        <p class="akc_d">4 430₽</p>
+                        <h3 class="akc_mob">5 430₽</h3>
+                        <h3 class="akc_dd">5 430₽</h3>
                     </div>
+
+                </div>
+
                     <div class="button_buyy1">
                         <button class="button_buy"><img src="img/Group.png"></button>
                     </div>
-                </div>
+
 
 
             </div>
@@ -296,11 +451,39 @@
 
     </div>
 </div>
+<div class="home_like_etc">
+<!--<div class="hl_pic">-->
+    <div class="home">
+        <img src="img/home.png" alt="home">
+        <p>Главная</p>
+    </div>
+
+    <div class="like">
+        <img src="img/heart.png" alt="heart">
+        <p>Избранное</p>
+    </div>
+
+    <div class="cart_2">
+        <img src="img/cart.png" alt="cart">
+        <p>Корзина</p>
+    </div>
+
+<div class="profile">
+    <img src="img/user.png" alt="user">
+    <p>Профиль</p>
+</div>
+
+
+<!--</div>-->
+
+</div>
+
+
 <div class="three_blocks">
     <div class="arrow_left"></div>
     <div class="oil_filters_radiators">
-        <div class="oil">
 
+        <div class="oil">
             <div class="swipe_lft">
                 <div class="swipe_circle">
                     <div class="arrow_pos">
@@ -308,7 +491,6 @@
                     </div>
                 </div>
             </div>
-
 
             <div class="oil_text">
                 <h2>Масла</h2>
@@ -577,7 +759,8 @@
     <div class="line"> </div>
     <div class="notice">
         <div class="notice_txt">
-            <img src="img/nov3.png" alt="november3">
+            <img id="nov3"  src="img/nov3.png" alt="november3">
+            <img id="nov33" src="img/nov33.png" alt="november3">
             <h6>Изменения на сайте</h6>
             <p>Недавно на сайте мы ввели
                 очередную порцию изменений,
@@ -588,7 +771,8 @@
                 не заставила себя долго ждать...</p>
         </div>
         <div class="notice_txt">
-            <img src="img/nov2.png" alt="november2">
+            <img id="nov2"  src="img/nov2.png" alt="november2">
+            <img id="nov22" src="img/nov22.png" alt="november2">
             <h6>Вышла новая версия для
                 мобильных приложений</h6>
             <p>Что нового в 2.0:<br>
@@ -597,7 +781,8 @@
                 — испрвление ошибок.</p>
         </div>
         <div class="notice_txt">
-            <img src="img/nov1.png" alt="november1">
+            <img id="nov1"  src="img/nov1.png" alt="november1">
+            <img id="nov11" src="img/nov11.png" alt="november1">
             <h6>Очередная порция обновлений для
                 мобильных приложений</h6>
             <p>Что нового добавлено:<br>
@@ -608,7 +793,8 @@
                 — исправление ошибок.</p>
         </div>
         <div class="notice_txt">
-            <img src="img/oct31.png" alt="oct31">
+            <img id="oct31"  src="img/oct31.png" alt="oct31">
+            <img id="oct311" src="img/oct311.png" alt="oct31">
             <h6>Интерфейс заказов для покупателей
                 стал более функциональным</h6>
             <p>Он позволяет выводить все
@@ -661,22 +847,38 @@
             <h3>Мы онлайн, воспользуйтесь</h3>
             <h3>Подпишитесь на нашу расслыку и<br>
                 вы первыми узнаете о скидках и акциях</h3>
-            <div class="subscribe">
-                <div class="input-group ">
-                    <input type="text" class="form-control" placeholder="Введите ваш email" aria-label=""
-                           aria-describedby="basic-addon1">
-                    <div class="input-group-append">
-                        <button class="subscribe_btn btn-primary" type="button">Подписаться</button>
-                    </div>
-                </div>
-            </div>
+
+
         </div>
         <div class="btm_address">
-            <h3>АДРЕС</h3>
+            <h3><br>АДРЕС</h3>
             <p>г. Новосибирск,
                 ул. Планировочная, 5, офис 105</p>
             <p>Форма обратной связи</p>
-        </div>
+            <div class="soc_sub">
+                <div class="subscribe">
+
+
+                    <div class="input-group ">
+                        <input type="text" class="form-control" placeholder="Введите ваш email" aria-label=""
+                               aria-describedby="basic-addon1">
+                        <div class="input-group-append">
+                            <button class="subscribe_btnm btn-primary" type="button">Подписаться</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="social_btn">
+                    <img src="img/facebook.png" alt="FB">
+                    <img src="img/telegram.png" alt="TG">
+                    <img src="img/tviter.png" alt="TV">
+                    <img src="img/google.png" alt="Gogle">
+                </div>
+            </div>
+            </div>
+
+
+
+
     </div>
 
 

@@ -1,6 +1,5 @@
 .header {
-    /*background: gray;*/
-    mix-blend-mode: normal;
+     mix-blend-mode: normal;
     border: 1px solid #FFFFFF;
     box-sizing: border-box;
     box-shadow: 0px -1px 10px rgba(0, 0, 0, 0.1);
@@ -17,15 +16,12 @@
     width: 100%;
     height: 38px;
     background-color: #0F2438;
-    /*display: flex;*/
-    /*align-items: center;*/
-}
+  }
 
 .nav-item_local {
     display: flex;
     align-items: center;
-    margin: 0 180px auto;
-}
+  }
 
 .nav-item_local p {
     margin: 0 auto;
@@ -230,7 +226,9 @@
     background: #005BB9;
     border-radius: 0px 6px 6px 0px
 }
-
+.slider_mob {
+    display: none;
+}
 .catalog_mob {
     display: none;
 }
@@ -361,60 +359,12 @@ button {
     margin: 7px;
 }
 
-.position_first {
-    justify-content: center;
-    text-align: left;
-    margin: 110px 65px auto;
-}
 
 .clutch {
     display: flex;
     justify-content: right;
 }
 
-.position_first h2 {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 36px;
-    line-height: 42px;
-    color: #0A1A2C;
-    text-align: center;
-}
-
-.position_first h3 {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 23px;
-    text-decoration-line: underline;
-    color: #717171;
-    align-items: center;
-    display: flex;
-
-}
-
-.position_first p {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 37px;
-    line-height: 43px;
-    color: #005BB9;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.position_first h4 {
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 26px;
-    text-decoration-line: line-through;
-    color: #C2C5DA;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
 
 .button_buy_click {
     background-color: DodgerBlue;
@@ -570,6 +520,8 @@ button {
 }
 
 
+
+
 .button_buy {
     background-color: DodgerBlue;
     border: none;
@@ -586,13 +538,13 @@ button {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    margin: 11px 175px auto;
   }
 
 .button_buyy1 {
-    display: flex;
-    align-items: flex-end;
+    display: block;
     justify-content: flex-end;
-
+    margin: 135px 5px auto;
 }
 
 .oil, .filters, .radiators {
@@ -731,8 +683,7 @@ button {
     display: flex;
     align-items: center;
     position: relative;
-    /*margin: -38px;*/
-}
+   }
 
 .arrow_pos1 {
     display: flex;
@@ -742,7 +693,7 @@ button {
 
 .three_buttoms {
     display: flex;
-    justify-content: left;
+    justify-content: space-evenly;
     margin: 70px 210px auto;
     align-items: center;
     column-gap: 15px;
@@ -936,8 +887,7 @@ button {
 .news {
     width: 100%;
     height: 380px;
-    /*background: #C2C5DA;*/
-}
+   }
 
 .news_text p {
     font-style: normal;
@@ -962,7 +912,6 @@ button {
     display: flex;
     justify-content: space-between;
     column-gap: 90px;
-    /*flex-wrap: wrap;*/
     width: 600px;
     margin: 0 187px auto;
 }
@@ -986,7 +935,6 @@ button {
 }
 
 .notice_txt {
-    /*position: absolute;*/
     z-index: 100;
 }
 
@@ -1093,9 +1041,7 @@ button {
     line-height: 16px;
     color: #FFFFFF;
     cursor: pointer;
-
 }
-
 
 
 .subscribe_btn {
@@ -1106,4 +1052,99 @@ button {
     color: #FFFFFF;
     background: #005BB9;
     border-radius: 0px 6px 6px 0px
+}
+
+.p_mob {
+    display: none;
+}
+.p_mob1 {
+    display: none;
+}
+.h3_d {
+    display: block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    color: #0A1A2C;
+}
+.h3_dd {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 37px;
+    line-height: 43px;
+    color: #005BB9;
+}
+.p_slider_price_m {
+    display: none;
+}
+.p_slider_price{
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+.p_slider_m {
+    display: none;
+}
+.p_sloder_catnom {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration-line: underline;
+
+    color: #717171;
+}
+.item_price {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.akc_mob {
+    display: none;
+}
+.akc_mob {
+    display: none;
+}
+.akc_price {
+    display: flex;
+    justify-content: flex-start;
+}
+.akc_d {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFB800;
+}
+.akc_dd {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: line-through;
+    color: #C2C5DA;
+}
+
+
+.home_like_etc {
+    display: none;
+}
+
+#nov11 {
+    display: none;
+}
+#nov22 {
+    display: none;
+}
+#nov33 {
+    display: none;
+}
+#oct311 {
+    display: none;
+}
+
+.soc_sub {
+    margin: 150px -90px auto;
 }
