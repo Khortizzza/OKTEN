@@ -10,7 +10,9 @@
 .bkg_blue {
     background: #005BB9;
 }
-
+.nav_bootsmob {
+    display: none;
+}
 .header-nav {
     width: 100%;
     height: 38px;
@@ -145,7 +147,9 @@
     height: 26px;
     margin: 25px;
 }
-
+.phone__whatsapp_mob {
+    display: none;
+}
 .whatsapp {
     height: 30px;
     display: flex;
@@ -190,7 +194,12 @@
     display: flex;
     justify-content: center;
 }
-
+.header_other_mob {
+    display: none;
+}
+.search_mob {
+    display: none;
+}
 .phone {
     display: flex;
     flex-direction: column;
@@ -220,6 +229,10 @@
     color: #FFFFFF;
     background: #005BB9;
     border-radius: 0px 6px 6px 0px
+}
+
+.catalog_mob {
+    display: none;
 }
 button {
     background-color: #005BB9;
@@ -730,7 +743,7 @@ button {
 .three_buttoms {
     display: flex;
     justify-content: left;
-    margin: 70px 100px auto;
+    margin: 70px 210px auto;
     align-items: center;
     column-gap: 15px;
 }
@@ -985,12 +998,21 @@ button {
     justify-content: center;
     align-items: baseline;
     background-color: #0C1A2A;
+}
+.social {
+    display: flex;
+    margin: 295px -38px auto;
+}
+.social_btn {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 35px 24px auto;
 
 }
-
 .buttom_partitions {
     display: flex;
-    margin: 10px 20px auto;
+    margin: 10px -440px auto;
     justify-content: space-between;
     align-items: baseline;
     column-gap: 30px;
@@ -1075,10 +1097,6 @@ button {
 }
 
 
-
-.subscribe {
-
-}
 
 .subscribe_btn {
 
