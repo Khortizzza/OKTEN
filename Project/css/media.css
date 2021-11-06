@@ -517,7 +517,7 @@
     }
 .bottom {
     width: 350px;
-    height: 1450px;
+    height: 1350px;
 }
 
 .input-group {
@@ -542,5 +542,13 @@
         border-radius: 0px 6px 6px 0px
     }
 
-
+.buttom_partitions p{
+    margin-bottom: 10px;
+}
+.buttom_partitions h3 {
+    margin-top: 25px;
+}
+.soc_sub {
+    margin: 43px -90px auto;
+}
 }
